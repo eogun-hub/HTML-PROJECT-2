@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a webpage titled after your fictional restaurant </title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+
+        </section>
+
+        <section>
+            <h2>Our Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="menu-category">
+            <th colspan="3" scope="rowgroup">Appetizers</th>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">
+                <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&amp;fit=crop&amp;w=320&amp;h=200&amp;q=80" alt="Bruschetta topped with tomatoes and basil" width="160" height="100" loading="lazy">
+                <br>Bruschetta
+            </th>
+            <td class="menu-item-desc">Toasted bread topped with tomatoes, basil, and olive oil.</td>
+            <td class="menu-item-price">$8.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Crispy Calamari</th>
+            <td class="menu-item-desc">Lightly fried calamari served with lemon and marinara.</td>
+            <td class="menu-item-price">$12.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Spinach Artichoke Dip</th>
+            <td class="menu-item-desc">Creamy spinach and artichoke dip served with warm pita.</td>
+            <td class="menu-item-price">$10.99</td>
+        </tr>
+        <tr class="menu-category">
+            <th colspan="3" scope="rowgroup">Main Courses</th>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">
+                <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&amp;fit=crop&amp;w=320&amp;h=200&amp;q=80" alt="Grilled salmon served with vegetables" width="160" height="100" loading="lazy">
+                <br>Grilled Salmon
+            </th>
+            <td class="menu-item-desc">Grilled salmon with seasonal vegetables and lemon butter.</td>
+            <td class="menu-item-price">$24.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Chicken Parmesan</th>
+            <td class="menu-item-desc">Breaded chicken with marinara, mozzarella, and pasta.</td>
+            <td class="menu-item-price">$19.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Wild Mushroom Risotto</th>
+            <td class="menu-item-desc">Creamy Arborio rice with wild mushrooms and Parmesan.</td>
+            <td class="menu-item-price">$18.99</td>
+        </tr>
+        <tr class="menu-category">
+            <th colspan="3" scope="rowgroup">Desserts</th>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Classic Tiramisu</th>
+            <td class="menu-item-desc">Espresso-soaked ladyfingers layered with mascarpone cream.</td>
+            <td class="menu-item-price">$9.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">New York Cheesecake</th>
+            <td class="menu-item-desc">Rich vanilla cheesecake with a buttery graham crust.</td>
+            <td class="menu-item-price">$8.99</td>
+        </tr>
+        <tr>
+            <th scope="row" class="menu-item-name">Chocolate Lava Cake</th>
+            <td class="menu-item-desc">Warm chocolate cake with a molten center and vanilla ice cream.</td>
+            <td class="menu-item-price">$10.99</td>
+        </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <p>
+        I updated the category headers to use scope="rowgroup" instead of colgroup and changed each dish name cell from a 
+        standard <td> to a row header (<th scope="row">). These changes improve web accessibility and structure by helping
+        screen readers correctly understand that the category headers divide row sections and that each dish name is the
+        primary identifier for its row.
+    </p>
+</body>
+</html>
